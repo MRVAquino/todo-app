@@ -79,7 +79,7 @@ const TodoApp = () => {
 
 const TodoList = ({ todos, onComplete, onEdit, onSave, onRemove, onUpdateText }) => {
   if (todos.length === 0) {
-    return <p>No todos available. Add a todo to get started!</p>;
+    return <p>No TODOS available. Add a todo to get started!</p>;
   }
 
   return (
